@@ -9,7 +9,6 @@
   margin: 0 auto;
 }
 .container {
-  margin: 0 3%;
 }
 section {
 }
@@ -95,8 +94,11 @@ nav {
   width: 100%;
   border-radius: 500px;
   border: 2px double #0f741f;
+  cursor: url(assets/big_finga.gif) 2 2, auto;
+
   padding: 5% 36% 5% 3%;
   color: #0f741f;
+  background-color: rgba(216, 254, 216, 0.841);
   font-size: 16px;
   font-weight: 500;
   position: absolute;
@@ -116,7 +118,7 @@ nav {
   color: #a0f396eb;
   font-weight: 700;
   font-size: 95%;
-  transition: all 900ms ease;
+  transition: all 1800ms ease;
   cursor: url(assets/sandwich-cursor.png) 4 12, auto;
 }
 .landing__email--button:hover {
@@ -150,6 +152,26 @@ nav {
   font-size: 250%;
 }
 .features__p {
-  max-width: 56%;
-  font-size: 120%;
+  max-width: 64%;
+  font-size: 130%;
+  padding-bottom: 7%;
+}
+/* SERVICES */
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 7%;
+  background-color: rgba(181, 247, 181, 0.444);
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: calc(100% / 3.2);
+  padding: 5% 2% 2% 2%;
+}
+.service__heading {
+  font-size: 150%;
 }
