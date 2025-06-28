@@ -57,6 +57,7 @@ nav {
   display: flex;
   width: 100%;
   align-items: center;
+  justify-content: space-between;
   text-align: center;
   background-color: rgba(150, 244, 150, 0.448);
 }
@@ -65,6 +66,9 @@ nav {
   flex-direction: column;
   width: 40%;
   border: 3px dotted lightgoldenrodyellow;
+}
+.landing__header {
+  padding-bottom: 5%;
 }
 .landing__img--wrapper {
   width: 60%;
