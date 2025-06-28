@@ -147,7 +147,9 @@ nav {
 }
 .features__header {
   padding: 3% 0;
+  font-size: 250%;
 }
 .features__p {
   max-width: 56%;
+  font-size: 120%;
 }
