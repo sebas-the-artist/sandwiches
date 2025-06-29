@@ -43,8 +43,8 @@ nav {
   font-size: 1.8vw;
 }
 .nav__link {
-  margin-right: 12px;
-  color: black;
+  margin-right: 24px;
+  color: #0f741f;
   text-decoration: none;
   cursor: url(assets/big_finga.gif) 2 2, auto;
 }
@@ -54,7 +54,22 @@ nav {
   text-decoration: underline;
   /* transform: translateY(-3px); */
 }
-
+.nav__link--primary {
+  border: 4px double #0f741f;
+  padding: 8px 24px;
+  background-color: #a0f396eb;
+  border-radius: 50px;
+  transition: all 1800ms ease;
+}
+.nav__link--primary:active {
+  transform: scale(1%);
+}
+.nav__link--primary:hover {
+  text-decoration: none;
+  background-color: #0f741f;
+  color: #a0f396eb;
+  border: 4px double #a0f396eb;
+}
 /*END OF NAV */
 .landing__wrapper {
   display: flex;
@@ -88,7 +103,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
-  margin: 3% 0;
+  margin: 6% 0;
 }
 .landing__email--input {
   width: 100%;
@@ -105,6 +120,7 @@ nav {
   top: 0;
   bottom: 0;
   z-index: 1;
+  box-shadow: 5px 5px 3px;
   transition: border-color 300ms;
 }
 .landing__email--button {
@@ -124,6 +140,10 @@ nav {
 .landing__email--button:hover {
   color: #0f741f;
   background-color: #a0f396eb;
+}
+.landing__trusted--customers {
+  padding-top: 10%;
+  color: #0f741f;
 }
 .company__logos {
   margin-top: 6%;
@@ -145,7 +165,7 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 3%;
+  padding: 7% 2% 1% 2%;
 }
 .features__header {
   padding: 3% 0;
@@ -174,4 +194,35 @@ nav {
 }
 .service__heading {
   font-size: 150%;
+}
+i {
+  font-size: 160%;
+  color: #0f741f;
+  border: 6px groove #0f741f;
+  border-color: #a0f396eb;
+  border-radius: 50%;
+  padding: 5%;
+  animation: float 1500ms infinite alternate-reverse ease;
+  margin-bottom: 24px;
+  transition: all 1000ms ease;
+}
+i:hover {
+  color: #0f741f;
+  border: 6px ridge #0f741f;
+  border-color: #a0f396eb;
+  border-radius: 50%;
+  padding: 5%;
+  cursor: grabbing;
+}
+.service__icon {
+  cursor: grab;
+  margin-bottom: 16px;
+}
+@keyframes float {
+  0% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
