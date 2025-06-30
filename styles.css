@@ -291,7 +291,8 @@ i:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(216, 254, 216, 0.841);
+  height: 95vh;
+  background-color: rgba(181, 247, 181, 0.444);
 }
 .steps__img {
   width: 40%;
@@ -301,7 +302,7 @@ i:hover {
 .steps__head {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   width: 100%;
 }
 .steps__description--wrapper {
