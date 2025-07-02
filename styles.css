@@ -192,11 +192,11 @@ nav {
 }
 .features__header {
   padding: 3% 0;
-  font-size: 250%;
+  font-size: 4vw;
 }
 .features__p {
   max-width: 64%;
-  font-size: 130%;
+  font-size: 2vw;
   padding-bottom: 7%;
 }
 /* SERVICES */
@@ -241,6 +241,9 @@ i:hover {
   cursor: grab;
   margin-bottom: 16px;
 }
+.service__p {
+  font-size: 1.5vw;
+}
 
 /* QUALITY WORK */
 .quality__wrapper {
@@ -260,8 +263,8 @@ i:hover {
 }
 .quality__header {
   padding: 8% 0;
-  width: 32%;
-  font-size: 30px;
+  width: 48%;
+  font-size: 4vw;
 }
 .quality__p {
   font-size: 1.5vw;
@@ -301,7 +304,7 @@ i:hover {
 }
 .steps__subhead {
   color: black;
-  font-size: 280%;
+  font-size: 4vw;
 }
 .steps__head {
   display: flex;
@@ -312,6 +315,7 @@ i:hover {
 }
 .steps__p {
   color: black;
+  font-size: 1.5vw;
 }
 .steps__description--wrapper {
   padding-bottom: 8%;
@@ -322,4 +326,24 @@ i:hover {
   padding: 7px;
   cursor: url(assets/big_finga.gif) 2 2, auto;
   color: #0f741f;
+}
+/*values*/
+.values__whole {
+  background-color: rgba(181, 247, 181, 0.444);
+  display: flex;
+}
+.values__description {
+  width: 50%;
+}
+.values__head {
+  font-size: 280%;
+}
+.values__list {
+  display: flex;
+}
+.values__img--wrapper {
+  text-align: center;
+}
+.values__img {
+  width: 90%;
 }
