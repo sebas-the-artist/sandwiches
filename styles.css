@@ -378,3 +378,44 @@ i:hover {
   transition: all 1800ms ease;
   cursor: url(assets/sandwich-cursor.png) 4 12, auto;
 }
+.value__button:hover {
+  color: #0f741f;
+  background-color: #a0f396eb;
+}
+/*
+PLANS
+*/
+.plans {
+  text-align: center;
+}
+.plans__list {
+  width: calc(100 / 3);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: safe;
+  height: 50vw;
+}
+.plan {
+  border: 2px double #0f741f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  line-height: 30px;
+}
+.line {
+  font-size: 900%;
+}
+
+.plan1 {
+  background-image: url(assets/silver.jpeg);
+}
+.plan2 {
+  background-image: url(assets/gold.jpeg);
+}
+.plan3 {
+  background-image: url(assets/rainbow2.jpeg);
+  opacity: background 40%;
+}
