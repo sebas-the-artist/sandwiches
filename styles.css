@@ -118,7 +118,7 @@ nav {
 }
 .landing__header {
   padding-bottom: 5%;
-  font-size: 3vw;
+  font-size: 7vw;
 }
 .landing__p {
   font-size: 2.4vw;
@@ -257,6 +257,7 @@ i:hover {
   align-items: center;
   justify-content: space-between;
   background-color: rgba(181, 247, 181, 0.444);
+  padding-bottom: 3%;
 }
 .quality__description {
   display: flex;
@@ -267,12 +268,13 @@ i:hover {
 }
 .quality__header {
   padding: 8% 0;
-  width: 48%;
-  font-size: 4vw;
+  width: 50%;
+  font-size: 3.8vw;
 }
 .quality__p {
-  font-size: 1.9vw;
+  font-size: 1.8vw;
   line-height: 1.5;
+  width: 100%;
 }
 .quality__button {
   margin: 8% 24%;
@@ -291,12 +293,14 @@ i:hover {
   background-color: #a0f396eb;
 }
 .quality__img--wrapper {
-  animation: flop 3000ms infinite alternate ease-in-out;
+  /* animation: flop 3000ms infinite alternate ease-in-out; */
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .quality__img {
-  width: 90%;
+  width: 60%;
+  padding: 45% 0 0 0;
 }
 /*STEPS*/
 .steps {
@@ -378,13 +382,16 @@ i:hover {
   transition: all 1800ms ease;
   cursor: url(assets/sandwich-cursor.png) 4 12, auto;
 }
-.value__button:hover {
+.values__button:hover {
   color: #0f741f;
   background-color: #a0f396eb;
 }
 /*
 PLANS
 */
+#plans {
+  background-color: rgba(181, 247, 181, 0.444);
+}
 .plans {
   text-align: center;
 }
@@ -396,26 +403,79 @@ PLANS
   align-items: safe;
   height: 50vw;
 }
+.plans__head {
+  padding: 7% 0;
+}
+.plans__h {
+  padding: 2% 0;
+}
 .plan {
-  border: 2px double #0f741f;
+  border: 6px double black;
+  border-radius: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 30%;
-  line-height: 30px;
+  transition: all 300ms ease-in-out;
+}
+.plan:hover {
+  transform: scale(1.1);
+}
+.plans__list--title {
+  top: 0;
+}
+.plans__list--price {
+  padding: 10% 0 3% 0;
+}
+.plans__list--detail {
+  padding: 10% 0 5% 0;
+  color: rgb(111, 111, 111);
+  -webkit-text-stroke: 0.4px black;
 }
 .line {
   font-size: 900%;
 }
+hr {
+  border: 0.7px solid black;
+  width: 100%;
+  margin: 10% 0;
+}
+.plans__list--button {
+  margin: 8% 24%;
+  border-radius: 500px;
+  width: 40%;
+  padding: 12px 0;
+  border: none;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 95%;
+  transition: all 1800ms ease;
+  cursor: url(assets/big_finga.gif) 4 12, auto;
+}
+
+.plans__list--button:hover {
+  color: black;
+  background-color: black;
+  border: 4px double black;
+  font-weight: bold;
+}
 
 .plan1 {
-  background-image: url(assets/silver.jpeg);
+  background-image: url(assets/copper.jpeg);
+}
+.plan1 .plans__list--button:hover {
+  background-color: rgb(164, 75, 31);
 }
 .plan2 {
-  background-image: url(assets/gold.jpeg);
+  background-image: url(assets/silver.jpeg);
+}
+.plan2 .plans__list--button:hover {
+  background-color: lightgrey;
 }
 .plan3 {
-  background-image: url(assets/rainbow2.jpeg);
-  opacity: background 40%;
+  background-image: url(assets/gold.jpeg);
+}
+.plan3 .plans__list--button:hover {
+  background-color: goldenrod;
 }
