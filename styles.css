@@ -46,8 +46,10 @@ h4 {
     transform: rotate(15deg);
   }
 }
-nav {
+#nav {
   background-color: rgba(181, 247, 181, 0.444);
+}
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -99,6 +101,9 @@ nav {
   border: 4px double #a0f396eb;
 }
 /*END OF NAV */
+#landing {
+  background-color: rgba(181, 247, 181, 0.444);
+}
 .landing__wrapper {
   display: flex;
   width: 100%;
@@ -106,7 +111,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  background-color: rgba(181, 247, 181, 0.444);
 }
 .landing__description {
   display: flex;
@@ -185,8 +189,10 @@ nav {
 }
 
 /* FEATURES */
-.features__head {
+#features {
   background-color: rgba(181, 247, 181, 0.444);
+}
+.features__head {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -210,7 +216,6 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 0%;
-  background-color: rgba(181, 247, 181, 0.444);
 }
 .service {
   display: flex;
@@ -250,13 +255,15 @@ i:hover {
 }
 
 /* QUALITY WORK */
+#quality {
+  background-color: rgba(181, 247, 181, 0.444);
+}
 .quality__wrapper {
   display: flex;
   width: 100%;
   height: 70vw;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(181, 247, 181, 0.444);
   padding-bottom: 3%;
 }
 .quality__description {
@@ -303,12 +310,15 @@ i:hover {
   padding: 45% 0 0 0;
 }
 /*STEPS*/
+#steps__section {
+  background-color: rgba(181, 247, 181, 0.444);
+  padding-top: 15%;
+}
 .steps {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 10%;
-  background-color: rgba(181, 247, 181, 0.444);
 }
 .steps__img {
   width: 90%;
@@ -328,7 +338,7 @@ i:hover {
 }
 .steps__p {
   color: black;
-  font-size: 1.5vw;
+  font-size: 1.1vw;
 }
 .steps__description--wrapper {
   padding-bottom: 8%;
@@ -341,8 +351,10 @@ i:hover {
   color: #0f741f;
 }
 /*values*/
-.values__whole {
+#values {
   background-color: rgba(181, 247, 181, 0.444);
+}
+.values__whole {
   display: flex;
   padding-top: 10%;
 }
@@ -391,6 +403,7 @@ PLANS
 */
 #plans {
   background-color: rgba(181, 247, 181, 0.444);
+  padding-bottom: 24px;
 }
 .plans {
   text-align: center;
@@ -442,11 +455,11 @@ hr {
   margin: 10% 0;
 }
 .plans__list--button {
-  margin: 8% 24%;
+  margin: 5% 24% 15% 24%;
   border-radius: 500px;
-  width: 40%;
-  padding: 12px 0;
-  border: none;
+  width: 50%;
+  padding: 15px 0;
+  border: 3px double rgb(111, 111, 111);
   background-color: black;
   color: whitesmoke;
   font-size: 95%;
@@ -457,7 +470,7 @@ hr {
 .plans__list--button:hover {
   color: black;
   background-color: black;
-  border: 4px double black;
+  border: 1px solid black;
   font-weight: bold;
 }
 
@@ -478,4 +491,21 @@ hr {
 }
 .plan3 .plans__list--button:hover {
   background-color: goldenrod;
+}
+
+#testimonials {
+  background-color: rgba(181, 247, 181, 0.444);
+  padding: 1% 5%;
+}
+.testimonials__wrapper {
+  padding-top: 21%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonials__img--wrapper {
+  width: 80%;
+}
+.testimonials__img {
+  width: 100%;
 }
