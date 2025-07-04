@@ -275,7 +275,7 @@ i:hover {
 }
 .quality__header {
   padding: 8% 0;
-  width: 50%;
+  width: 80%;
   font-size: 3.8vw;
 }
 .quality__p {
@@ -403,7 +403,6 @@ PLANS
 */
 #plans {
   background-color: rgba(181, 247, 181, 0.444);
-  padding-bottom: 24px;
 }
 .plans {
   text-align: center;
@@ -417,10 +416,11 @@ PLANS
   height: 50vw;
 }
 .plans__head {
-  padding: 7% 0;
+  padding: 10% 0 7% 0;
 }
 .plans__h {
   padding: 2% 0;
+  font-size: 4vw;
 }
 .plan {
   border: 6px double black;
@@ -493,6 +493,10 @@ hr {
   background-color: goldenrod;
 }
 
+/*
+testimonials
+*/
+
 #testimonials {
   background-color: rgba(181, 247, 181, 0.444);
   padding: 1% 5%;
@@ -508,4 +512,7 @@ hr {
 }
 .testimonials__img {
   width: 100%;
+}
+.testimonials__h {
+  font-size: 4vw;
 }
