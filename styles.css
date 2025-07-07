@@ -616,3 +616,31 @@ box thing
 .box__button:hover {
   transform: scale(1.005);
 }
+
+/*
+
+footer
+
+*/
+footer {
+  background-color: #0f741f;
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+.footer__column--title {
+  color: #a0f396eb;
+  font-size: 2vw;
+  padding-bottom: 10%;
+}
+.footer__column--link {
+  color: #a0f396eb;
+  text-decoration: none;
+  padding-bottom: 5%;
+}
