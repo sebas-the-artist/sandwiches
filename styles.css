@@ -586,37 +586,6 @@ testimonials
 box thing
 
 */
-#board {
-  background-color: rgba(181, 247, 181, 0.444);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #0f741f;
-}
-.box {
-  width: 90vw;
-  display: flex;
-  justify-content: center;
-  padding: 4%;
-}
-
-.box__button {
-  margin: 0 0.5vw;
-  padding: -3%;
-  border-radius: 500px;
-  width: 30%;
-  border: none;
-  background-color: #a0f396eb;
-  color: whitesmoke;
-  font-size: 2vw;
-  transition: all 1800ms ease;
-  cursor: url(assets/sandwich-cursor.png) 4 12, auto;
-}
-.box__button:hover {
-  transform: scale(1.005);
-}
-
 /*
 
 footer
@@ -624,6 +593,7 @@ footer
 */
 footer {
   background-color: #0f741f;
+  padding-top: 3%;
 }
 .footer__columns {
   display: flex;
@@ -643,4 +613,31 @@ footer {
   color: #a0f396eb;
   text-decoration: none;
   padding-bottom: 5%;
+}
+.footer__column--link:hover {
+  text-decoration: underline;
+}
+.footer__line {
+  margin: 3%;
+  padding: 0;
+}
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 12% 5% 2%;
+}
+.footer__logo {
+  width: 18%;
+}
+.footer__social--icons {
+  display: flex;
+}
+.footer__icon {
+  /* border: 1px solid black; */
+  background-color: #a0f396eb;
+  border-radius: 50%;
+  padding: 10%;
+  font-size: 2vw;
+  margin: 0 7%;
 }
