@@ -540,7 +540,8 @@ testimonials
 .fa-star:hover {
   border: none;
   padding: 0 1%;
-  color: darkgoldenrod;
+  /* color: darkgoldenrod; */
+  color: rgb(222, 222, 3);
   cursor: crosshair;
   transform: rotate(360deg);
 }
@@ -591,42 +592,42 @@ box thing
 
 */ /*
 #board {
-  background-color: rgba(181, 247, 181, 0.444);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #0f741f;
-}
-.box {
-  width: 90vw;
-  display: flex;
-  justify-content: center;
-  padding: 4%;
-}
-
-.box__button {
-  margin: 0 0.5vw;
-  padding: -3%;
-  border-radius: 500px;
-  width: 30%;
-  border: none;
-  background-color: #a0f396eb;
-  color: whitesmoke;
-  font-size: 2vw;
-  transition: all 1800ms ease;
-  cursor: url(assets/sandwich-cursor.png) 4 12, auto;
-}
-.box__button:hover {
-  transform: scale(1.005);
-}
-  */
+    background-color: rgba(181, 247, 181, 0.444);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0f741f;
+    }
+    .box {
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        padding: 4%;
+        }
+        
+        .box__button {
+            margin: 0 0.5vw;
+            padding: -3%;
+            border-radius: 500px;
+            width: 30%;
+            border: none;
+            background-color: #a0f396eb;
+            color: whitesmoke;
+            font-size: 2vw;
+            transition: all 1800ms ease;
+            cursor: url(assets/sandwich-cursor.png) 4 12, auto;
+            }
+            .box__button:hover {
+                transform: scale(1.005);
+                }
+                */
 
 /*
-
-footer
-
-*/
+                
+                footer
+                
+                */
 footer {
   background-color: #0f741f;
   padding-top: 3%;
@@ -670,6 +671,10 @@ footer {
 }
 .footer__logo {
   width: 18%;
+  transition: all 8000ms ease-in-out;
+}
+.footer__logo:hover {
+  transform: rotate(3600deg);
 }
 .footer__copyright {
   color: #a0f396eb;
