@@ -729,10 +729,35 @@ sign up page
   display: flex;
   flex-direction: column;
   width: 60vw;
-  padding: 0% 3% 7% 3%;
+  padding: 0% 3% 3% 3%;
   border: 3px double black;
 }
 .sign-up__input--title {
   display: flex;
-  margin-top: 7%;
+  margin-top: 3%;
+}
+.sign-up__button {
+  display: flex;
+  justify-content: center;
+}
+.sign-up__submit {
+  border: 4px double #0f741f;
+  width: 30%;
+  padding: 8px 24px;
+  margin-top: 3%;
+  background-color: #a0f396eb;
+  border-radius: 50px;
+  transition: all 1800ms ease;
+}
+
+.sign-up__submit:active {
+  transform: scale(1%);
+}
+.sign-up__submit:hover {
+  text-decoration: none;
+  background-color: #0f741f;
+  color: #a0f396eb;
+  border: 4px double #a0f396eb;
+  opacity: 0;
+  content-visibility: 0;
 }
