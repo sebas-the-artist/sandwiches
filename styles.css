@@ -296,15 +296,17 @@ nav {
   width: 40%;
   padding: 12px 0;
   border: none;
-  background-color: #0f741f;
-  color: #a0f396eb;
-  font-size: 95%;
-  transition: all 1800ms ease;
-  cursor: url(assets/sandwich-cursor.png) 4 12, auto;
-}
-.quality__button:hover {
   color: #0f741f;
   background-color: #a0f396eb;
+  font-size: 95%;
+  transition: all 5000ms ease;
+  cursor: url(assets/sandwich-cursor.png) 4 12, auto;
+  opacity: 0%;
+}
+.quality__button:hover {
+  background-color: #0f741f;
+  color: #a0f396eb;
+  opacity: 100%;
 }
 .quality__img--wrapper {
   /* animation: flop 3000ms infinite alternate ease-in-out; */
@@ -731,14 +733,26 @@ sign up page
   width: 60vw;
   padding: 0% 3% 3% 3%;
   border: 3px double black;
+  background-color: #0f741f;
+}
+.sign-up__input {
+  color: #0f741f;
+  background-color: #a0f396eb;
+  border: 2px double black;
 }
 .sign-up__input--title {
   display: flex;
   margin-top: 3%;
+  color: #a0f396eb;
 }
 .sign-up__button {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.tos {
+  color: #a0f396eb;
+  text-decoration: underline;
 }
 .sign-up__submit {
   border: 4px double #0f741f;
