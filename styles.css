@@ -37,7 +37,7 @@ h4 {
 }
 @keyframes flop {
   0% {
-    transform: rotate(-11deg);
+    transform: rotate(-15deg);
   }
   /* 50% {
     transform: rotate(0deg);
@@ -774,4 +774,31 @@ sign up page
   border: 4px double #a0f396eb;
   opacity: 0;
   content-visibility: 0;
+}
+
+/*
+
+DANG
+
+*/
+#dang {
+  background-color: rgba(181, 247, 181, 0.444);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: url(assets/sandwich-cursor.png) 4 12, auto;
+}
+.dang__h {
+  color: #0f741f;
+  animation: flop 1800ms ease-in-out infinite alternate-reverse;
+}
+.dang__p {
+  padding: 3% 0;
+  text-align: center;
+  width: 75%;
+}
+.construction {
+  width: 60%;
 }
