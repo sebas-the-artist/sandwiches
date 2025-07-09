@@ -61,6 +61,7 @@ nav {
 .logo {
   width: 16vw;
   transition: all 8000ms ease-in-out;
+  z-index: -1;
 }
 .logo:hover {
   cursor: url(assets/sandwich-cursor.png) 4 12, auto;
@@ -718,13 +719,20 @@ sign up page
   width: 100%;
   text-align: center;
 }
+.sign-up__header {
+  font-size: 4vw;
+  color: #0f741f;
+  position: relative;
+  z-index: 10;
+}
 .sign-up__inputs {
   display: flex;
   flex-direction: column;
-  width: 40vw;
-}
-.sign-up__input {
+  width: 60vw;
+  padding: 0% 3% 7% 3%;
+  border: 3px double black;
 }
 .sign-up__input--title {
-  margin-top: 10%;
+  display: flex;
+  margin-top: 7%;
 }
