@@ -385,7 +385,11 @@ nav {
 .values__list {
   display: flex;
   justify-content: space-between;
+  width: 95%;
+}
+.values__list--item {
   width: 90%;
+  padding-right: 2%;
 }
 .values__img--wrapper {
   text-align: center;
