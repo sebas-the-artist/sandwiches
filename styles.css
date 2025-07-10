@@ -235,7 +235,7 @@ nav {
   font-size: 150%;
 }
 .icon {
-  font-size: 160%;
+  font-size: 3vw;
   color: #0f741f;
   border: 6px groove #0f741f;
   border-color: #a0f396eb;
@@ -381,6 +381,8 @@ nav {
 }
 .values__list {
   display: flex;
+  justify-content: space-between;
+  width: 90%;
 }
 .values__img--wrapper {
   text-align: center;
@@ -762,7 +764,6 @@ sign up page
 .sign-up__submit {
   text-align: center;
   border: 4px double #0f741f;
-  width: 20%;
   padding: 8px 24px;
   margin-top: 3%;
   background-color: #a0f396eb;
